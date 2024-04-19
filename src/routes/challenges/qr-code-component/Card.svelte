@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import { getStaticPath } from '$lib/path';
 
 	type Props = {
 		img: string;
@@ -13,7 +13,7 @@
 <div
 	class="font-[Outfit] m-auto flex flex-col shadow-md p-3 rounded-[20px] w-[320px] h-[497px] bg-[color:hsl(0,0%,100%)]"
 >
-	<img class="rounded-[15px]" src="{base}/{img}" alt="qr code" />
+	<img class="rounded-[15px]" src={getStaticPath(img)} alt="qr code" />
 	<p class="font-bold p-3 leading-7 text-center text-[22px] text-[color:hsl(218,44%,22%)]">
 		{header}
 	</p>
