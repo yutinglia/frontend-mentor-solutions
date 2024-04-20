@@ -9,3 +9,7 @@
 		content="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
 	/>
 </div>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+</style>
