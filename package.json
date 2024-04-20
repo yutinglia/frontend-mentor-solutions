@@ -38,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"clsx": "^2.1.0",
+		"date-fns": "^3.6.0",
 		"tailwind-merge": "^2.3.0"
 	}
 }
