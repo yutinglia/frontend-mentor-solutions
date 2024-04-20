@@ -2,10 +2,6 @@
 	import Card from './Card.svelte';
 </script>
 
-{#snippet header()}
-	<h1>Test</h1>
-{/snippet}
-
 <main class="flex h-dvh bg-[color:hsl(47,88%,63%)]">
 	<Card
 		img="/blog-preview-card/illustration-article.svg"
