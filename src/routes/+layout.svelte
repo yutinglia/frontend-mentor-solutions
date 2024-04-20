@@ -2,4 +2,10 @@
 	import '../app.css';
 </script>
 
-<slot />
+<svelte:head>
+	<title>Frontend Mentor Challenges</title>
+</svelte:head>
+
+<main>
+	<slot />
+</main>

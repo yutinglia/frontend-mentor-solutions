@@ -2,7 +2,7 @@
 	import Card from './Card.svelte';
 </script>
 
-<main class="flex h-dvh bg-[color:hsl(47,88%,63%)]">
+<div class="flex h-dvh bg-[color:hsl(47,88%,63%)]">
 	<Card
 		img="/blog-preview-card/illustration-article.svg"
 		tag="Learning"
@@ -12,7 +12,7 @@
 		author="Greg Hooper"
 		avatar="/blog-preview-card/image-avatar.webp"
 	/>
-</main>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
