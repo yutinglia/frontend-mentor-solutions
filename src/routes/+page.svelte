@@ -1,7 +1,7 @@
 <script lang="ts">
 	import SolutionLink from '$lib/components/SolutionLink.svelte';
 
-	const challenges = ['qr-code-component', 'blog-preview-card'];
+	const challenges = ['qr-code-component', 'blog-preview-card', 'multi-step-form'];
 </script>
 
 <div class="bg-slate-400 h-dvh flex">
